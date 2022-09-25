@@ -11,6 +11,11 @@ import { TeamComponent } from './components/team/team.component';
 import { ContactComponent } from './components/forms/contact/contact.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './pages/home/home.component';
+import { NavComponent } from './components/nav/nav.component';
+import { TitleComponent } from './components/title/title.component';
+import { HttpClientModule } from  '@angular/common/http';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +27,15 @@ import { HomeComponent } from './pages/home/home.component';
     TeamComponent,
     ContactComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    NavComponent,
+    TitleComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

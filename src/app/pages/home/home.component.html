@@ -1,1 +1,10 @@
-<p>home works!</p>
+<div *ngIf="appData != null">
+  <app-header [header]="appData.header"></app-header>
+  <app-services [service]="appData.service" ></app-services>
+  <app-technos [techno]="appData.techno"></app-technos>
+  <app-about-us [about]="appData.about" ></app-about-us>
+  <app-team [team]="appData.team" ></app-team>
+  <app-contact [contact]="appData.contact" ></app-contact>
+</div>
+
+

@@ -1,3 +1,4 @@
+import { AppDataService } from './../../services/app-data.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private appService: AppDataService) { }
+
+  public appData: any;
+
+  public loading: boolean = false;
 
   ngOnInit(): void {
+   this.initAppData();
   }
+
+  initAppData(){
+    this.loading = true;
+    this.appService.loadAppJSONData().subscribe(res => {
+      this.appData = res;
+      this.loading = false;
+    });
+}
 
 }

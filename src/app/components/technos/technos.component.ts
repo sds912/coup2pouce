@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-technos',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class TechnosComponent implements OnInit {
 
   constructor() { }
+
+  @Input() techno: any;
 
   ngOnInit(): void {
   }

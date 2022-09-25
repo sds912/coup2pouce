@@ -1,0 +1,273 @@
+{
+  "nav":  {
+      "brand": "Coup2pouce",
+      "logo": "",
+      "links": [
+        {
+          "label": "Qui Sommes-Nous",
+          "path": "about"
+        },
+        {
+          "label": "Services",
+          "path": "services"
+        },
+        {
+          "label": "Technologies",
+          "path": "technos"
+        },
+        {
+           "label": "L'équipe",
+           "path": "team"
+        },
+        {
+          "label": "Contatez-Nous",
+          "path": "contact"
+        }
+      ]
+  },
+  "about":   {
+    "description": {
+      "text1": "Crée en 2020, Coup2Pouce Innovation Digital est une startup de développement logiciel et d’ingénierie informatique composée d’une équipe de jeunes professionnels passionnants et passionnés des TICs, Basée à Dakar, au Sénégal, la jeune pousse se propose d’offrir des solutions innovantes tournant sur la technologie web et mobile, la science de données, le marketing digital, le design web, etc... à sa clientèle sur le plan national et international dans le but d’optimiser leur fonctionnement intégral.",
+      "text2": "Coup2pouce se fixe comme objectif principal d’accompagner les particuliers et les entreprises vers une transformation digitale en leur offrant des services suivants :"
+    }
+  },
+  "contact": {
+    "description": "",
+    "phone1": "+221 77 744 36 63",
+    "phone2": "+221 77 744 36 63",
+    "fax1": "+221 77 744 36 63",
+    "fax2":  "+221 77 744 36 63",
+    "email1": "senghor.pape912@hotmail.com",
+    "email2": "senghor.pape912@hotmail.com",
+    "social": {
+      "facebook": {
+        "label": "Facebook",
+        "icon": "fa fa-facebook",
+        "url": ""
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "icon": "fa fa-linkedin",
+        "url": ""
+      },
+      "whatsapp": {
+        "label": "Whatsapp",
+        "icon": "fa fa-whatsapp",
+        "url": ""
+      }
+    }
+  },
+  "footer":  {
+    "brand": "Coup2pouce",
+    "utilLinks": [
+      {
+        "label": "Services",
+        "url": ""
+      },
+      {
+        "label": "Technologies",
+        "url": ""
+      },
+      {
+        "label": "L'équipe",
+        "url": ""
+      }
+    ]
+  },
+  "header":  {},
+  "service": {
+    "desc": "",
+    "items": [
+      {
+        "label": "Développement d’application Web ",
+        "icon": "",
+        "desc": "",
+        "path": ""
+      },
+      {
+        "label": "Développement d'application Mobile ",
+        "icon": "",
+        "desc": "",
+        "path": ""
+      },
+      {
+        "label": "DevOps",
+        "icon": "",
+        "desc": "",
+        "path": ""
+      },
+      {
+        "label": "Design",
+        "icon": "",
+        "desc": "",
+        "path": ""
+      }
+    ]
+  },
+  "technos": [
+    {
+      "category": "Front",
+      "items": [
+        {
+          "label": "Angular",
+          "icon": ""
+        },
+        {
+          "label": "ReactJS",
+          "icon": ""
+        },
+        {
+          "label": "VueJS",
+          "icon": ""
+        }
+
+      ]},
+      {
+        "category": "Back",
+        "items": [
+          {
+            "label": "SpringBoot",
+            "icon": ""
+          },
+          {
+            "label": "NodeJS",
+            "icon": ""
+          },
+          {
+            "label": "Java",
+            "icon": ""
+          },
+          {
+            "label": "API Platform",
+            "icon": ""
+          }
+          ]},
+        {
+          "category": "Database",
+          "items": [
+            {
+              "label": "Mysql",
+              "icon": ""
+            },
+            {
+              "label": "MongoDB",
+              "icon": ""
+            },
+            {
+              "label": "Postgres",
+              "icon": ""
+            },
+            {
+              "label": "No sql",
+              "icon": ""
+            }
+          ]},
+          {
+            "category": "DevOps",
+            "items": [
+              {
+                "label": "Git",
+                "icon": ""
+              },
+              {
+                "label": "Jenkins",
+                "icon": ""
+              },
+              {
+                "label": "Ansible",
+                "icon": ""
+              },
+              {
+                "label": "Docker",
+                "icon": ""
+              },
+              {
+                "label": "Kubernetes",
+                "icon": ""
+              },
+              {
+                "label": "Openshift",
+                "icon": ""
+              }
+
+            ]},
+
+            {
+              "category": "Cloud",
+              "items": [
+                {
+                  "label": "AWS",
+                  "icon": ""
+                },
+                {
+                  "label": "Azure Cloud",
+                  "icon": ""
+                }
+              ]
+            }
+
+
+
+  ],
+  "team":    {
+    "desc": "",
+    "poeple": [
+      {
+        "name": "Alioue Touré",
+        "role": "Ingénieur d'Affaire",
+        "desc": "",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Papa Babacar Ngor Senghor",
+        "role": "IT Manager",
+        "desc": "",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Abdoulaye Wade",
+        "role": "Chef de Projet",
+        "desc": "",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Mansour Yade",
+        "role": "Chef de Projet",
+        "desc": "",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Gora",
+        "role": "Chef de Projet",
+        "desc": "",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          }
+        ]
+      }
+    ]
+
+  }
+}
