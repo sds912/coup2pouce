@@ -15,6 +15,10 @@ import { NavComponent } from './components/nav/nav.component';
 import { TitleComponent } from './components/title/title.component';
 import { HttpClientModule } from  '@angular/common/http';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { CustomSliderComponent } from './components/custom-slider/custom-slider.component';
+
+
 
 
 @NgModule({
@@ -30,12 +34,15 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     HomeComponent,
     NavComponent,
     TitleComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CustomSliderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    NgImageSliderModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

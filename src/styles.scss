@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body{
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #F4F4F4;
+
+}
+.bg-red{
+  background-color: #EA65A6;
+}
+
+
+
+.bg-blue{
+  background-color: #0D87A5;
+}
+
+.bg-dark-gray{
+   background-color: #26454F;
+}
+
+.bg-light-blue{
+  background-color: #96CEFF;
+}
+
+.custom-image-main{
+  border: none !important;
+  box-shadow: none !important;
+  .image{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+}
+.img-div{
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+ // width:  140px !important;
+  //height: 140px !important;
+}
+.caption{
+  background: none !important;
+  display: none !important;
+}

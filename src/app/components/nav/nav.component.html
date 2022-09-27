@@ -1,1 +1,12 @@
-<p>nav works!</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-white px-5 py-4 sticky-top" [class.shadow]="onWindowScroll()">
+  <a class="navbar-brand" href="">
+    <img [src]="nav.brand.logo" [alt]="nav.brand.label" class="img-fluid" style="height: 42px;" />
+  </a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li *ngFor="let n of nav.links" class="nav-item">
+        <a class="nav-link" [href]="n.path" >{{n.label}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,40 @@
+h1{
+  font-size: 62px;
+  font-weight: 600;
+  color: #0D87A5;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: 18px ;
+  font-weight: 500;
+  line-height: 30px ;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1{
+  font-size: 38px;
+
+  }
+  h5{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+}
+
+
+
+.btn{
+  background: rgb(234,101,166) !important;
+background: linear-gradient(90deg, rgba(234,101,166,1) 0%, rgba(71,153,180,0.9728933809852066) 100%) !important;
+
+border: none;
+outline: none;
+padding: 1em 3em;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 500;
+}
+

@@ -1,7 +1,10 @@
 {
   "nav":  {
-      "brand": "Coup2pouce",
-      "logo": "",
+      "brand": {
+        "labe": "CouP2Pouce",
+        "logo": "assets/nav/logo.jpg"
+      },
+
       "links": [
         {
           "label": "Qui Sommes-Nous",
@@ -76,29 +79,30 @@
   },
   "header":  {},
   "service": {
-    "desc": "",
+    "title": "Nos Services",
+    "desc": "Nos services de développement de logiciels fournissent des solutions spécifiques à l'industrie qui alignent les personnes, les processus et les systèmes pour faire évoluer votre entreprise.",
     "items": [
       {
-        "label": "Développement d’application Web ",
-        "icon": "",
+        "label": "Développement Web ",
+        "icon": "assets/services/web.png",
         "desc": "",
         "path": ""
       },
       {
-        "label": "Développement d'application Mobile ",
-        "icon": "",
+        "label": "Développement Mobile ",
+        "icon": "assets/services/mobile.png",
         "desc": "",
         "path": ""
       },
       {
         "label": "DevOps",
-        "icon": "",
+        "icon": "assets/services/devops.png",
         "desc": "",
         "path": ""
       },
       {
         "label": "Design",
-        "icon": "",
+        "icon": "assets/services/design.png",
         "desc": "",
         "path": ""
       }

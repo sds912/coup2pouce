@@ -1,1 +1,15 @@
-<p>technos works!</p>
+<app-title [title]="'Nos Technologies'"></app-title>
+<P></P>
+<div class="container-fluid mx-0 px-0 py-5 mt-5 bg-white">
+  <ng-image-slider
+  [images]="imageObject"
+  #nav
+  [infinite]="true"
+  [autoSlide]="true"
+  [imagePopup]="false"
+  [imageSize]="{space: 12}"
+  [showArrow]="false" ></ng-image-slider>
+</div>
+
+
+
