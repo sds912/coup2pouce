@@ -2,8 +2,8 @@
   <app-title [title]="service.title"></app-title>
   <p class="text-muted px-0 px-md-5 text-center">{{service.desc}}</p>
   <div class="row mt-5">
-    <div class="col-12 col-md-3 mt-3" *ngFor="let s of service.items">
-       <div class=" card card-body text-center"  id="card-1">
+    <div data-aos="zoom-in" class="col-12 col-md-3 mt-3"  *ngFor="let s of service.items">
+       <div class=" card card-body text-center"   id="card-1">
           <img class="img-fluid mt-3" [src]="s.icon" [alt]="s.label" >
          <h5 class="card-title mt-5">{{s.label}}</h5>
          <p class="card-text">{{s.desc}}</p>
@@ -11,4 +11,6 @@
     </div>
  </div>
 </div>
+
+
 

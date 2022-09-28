@@ -58,6 +58,13 @@
         "icon": "fa fa-whatsapp",
         "url": ""
       }
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "industry": "Secteur d'activité",
+      "message": "Comment pouvons-nous vous aider ?"
     }
   },
   "footer":  {
