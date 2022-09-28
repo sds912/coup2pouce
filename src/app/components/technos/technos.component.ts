@@ -12,56 +12,74 @@ export class TechnosComponent implements OnInit {
   imageObject: Array<object> = [
 
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 1',
+  thumbImage: 'assets/technos/spring.png',
+  alt: 'Spring Framework',
   order: 1
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 2',
+  thumbImage: 'assets/technos/angular.png',
+  alt: 'Angular',
   order: 2
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 3',
+  thumbImage: 'assets/technos/flutter.png',
+  alt: 'Flutter',
   order: 3
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 4',
+  thumbImage: 'assets/technos/java.png',
+  alt: 'Java',
   order: 4
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 5',
+  thumbImage: 'assets/technos/jenkins.png',
+  alt: 'Jenkins',
   order: 5
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 6',
+  thumbImage: 'assets/technos/kotlin.png',
+  alt: 'Kotlin',
   order: 6
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 7',
+  thumbImage: 'assets/technos/laravel.png',
+  alt: 'Laravel',
   order: 7
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 8',
+  thumbImage: 'assets/technos/maven.png',
+  alt: 'Maven',
   order: 8
 
 },
 {
-  thumbImage: 'https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png',
-  alt: 'alt of image 9',
+  thumbImage: 'assets/technos/mongo.png',
+  alt: 'Mongo',
   order: 9
+
+},
+{
+  thumbImage: 'assets/technos/nodejs.png',
+  alt: 'NodeJS',
+  order: 10
+
+},
+{
+  thumbImage: 'assets/technos/react.png',
+  alt: 'React',
+  order: 11
+
+},
+{
+  thumbImage: 'assets/technos/vue.png',
+  alt: 'Vue',
+  order: 12
 
 }
 
