@@ -1,3 +1,4 @@
+import { MapViewerComponent } from './components/map-viewer/map-viewer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -18,6 +19,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { CustomSliderComponent } from './components/custom-slider/custom-slider.component';
 import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
+import { IndustryComponent } from './components/industry/industry.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 
@@ -37,11 +40,14 @@ import { ContactFormComponent } from './components/forms/contact-form/contact-fo
     TitleComponent,
     NotFoundComponent,
     CustomSliderComponent,
-    ContactComponent
+    ContactComponent,
+    IndustryComponent,
+    MapViewerComponent
 
   ],
   imports: [
     BrowserModule,
+    GoogleMapsModule,
     AppRoutingModule,
     HttpClientModule,
     NgImageSliderModule

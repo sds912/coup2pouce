@@ -29,19 +29,26 @@
       ]
   },
   "about":   {
-    "description": {
-      "text1": "Crée en 2020, Coup2Pouce Innovation Digital est une startup de développement logiciel et d’ingénierie informatique composée d’une équipe de jeunes professionnels passionnants et passionnés des TICs, Basée à Dakar, au Sénégal, la jeune pousse se propose d’offrir des solutions innovantes tournant sur la technologie web et mobile, la science de données, le marketing digital, le design web, etc... à sa clientèle sur le plan national et international dans le but d’optimiser leur fonctionnement intégral.",
-      "text2": "Coup2pouce se fixe comme objectif principal d’accompagner les particuliers et les entreprises vers une transformation digitale en leur offrant des services suivants :"
+    "title": "Qui Sommes-Nous ?",
+    "desc": {
+      "p1": "Crée en 2020, Coup2Pouce Innovation Digital est une startup de développement logiciel et d’ingénierie informatique composée d’une équipe de jeunes professionnels passionnants et passionnés des TICs, Basée à Dakar, au Sénégal, la jeune pousse se propose d’offrir des solutions innovantes tournant sur la technologie web et mobile, la science de données, le marketing digital, le design web, etc... à sa clientèle sur le plan national et international dans le but d’optimiser leur fonctionnement intégral.",
+      "p2": "Coup2pouce se fixe comme objectif principal d’accompagner les particuliers et les entreprises vers une transformation digitale en leur offrant des services suivants :"
     }
   },
   "contact": {
-    "description": "",
-    "phone1": "+221 77 744 36 63",
-    "phone2": "+221 77 744 36 63",
-    "fax1": "+221 77 744 36 63",
-    "fax2":  "+221 77 744 36 63",
-    "email1": "senghor.pape912@hotmail.com",
-    "email2": "senghor.pape912@hotmail.com",
+    "title": "Et si vous nous parliez de votre projet ?",
+    "desc": {
+      "p1": "Un premier contact peut tout change. Nous sommes là pour répondre à vos questions",
+      "p2": "Nous sommes présents au Sénégal et en France. Vous pouvez parler 24H/24 et 7J/7 avec nos équipes dans les deux pays"
+    },
+    "address1": "Dakar, Sénégal",
+    "address2": "Paris, France",
+    "phone1":   "+221 77 744 36 63",
+    "phone2":   "+33 77 744 36 63",
+    "fax1":     "+221 77 744 36 63",
+    "fax2":     "+221 77 744 36 63",
+    "email1":   "senghor.pape912@hotmail.com",
+    "email2":   "senghor.pape912@hotmail.com",
     "social": {
       "facebook": {
         "label": "Facebook",
@@ -60,11 +67,15 @@
       }
     },
     "form": {
+      "title": "Laissez-nous un message",
+      "labels":{
+
       "name": "Nom complet",
       "email": "Email",
       "phone": "Téléphone",
       "industry": "Secteur d'activité",
       "message": "Comment pouvons-nous vous aider ?"
+      }
     }
   },
   "footer":  {
@@ -93,25 +104,29 @@
         "label": "Développement Web ",
         "icon": "assets/services/web.png",
         "desc": "",
-        "path": ""
+        "path": "",
+        "solutions": ["Application Métier", "Site Web", "Streaming App"]
       },
       {
         "label": "Développement Mobile ",
         "icon": "assets/services/mobile.png",
         "desc": "",
-        "path": ""
+        "path": "",
+        "solutions": ["IOS", "Android", "Cross-platform"]
       },
       {
         "label": "DevOps",
         "icon": "assets/services/devops.png",
         "desc": "",
-        "path": ""
+        "path": "",
+        "solutions": ["CI / CD", "Automation", "Cloud"]
       },
       {
-        "label": "Design",
+        "label": "UX / UI Design",
         "icon": "assets/services/design.png",
         "desc": "",
-        "path": ""
+        "path": "",
+        "solutions": ["Vusial Design", "Art Design", "Web Design"]
       }
     ]
   },

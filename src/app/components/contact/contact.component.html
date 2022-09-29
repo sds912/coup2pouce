@@ -1,11 +1,48 @@
 <div class="container-fluid m-0 p-3 p-md-5 bg-blue">
   <div class="row">
-    <div class="col-12 col-md-6">
-      <h2>Contacter nous</h2>
-      <p></p>
+    <div class="col-12 col-md-7" style="position: relative;" data-aos="fade-up">
+      <h2>{{contact.title}}</h2>
+      <p class="mt-4">{{contact.desc.p1}}</p>
+      <p class="mt-4 mb-5">{{contact.desc.p2}}</p>
+      <app-map-viewer></app-map-viewer>
+      <div class="coord mt-5 d-flex align-items-start" data-aos="fade-down-right">
+        <div>
+          <h6>
+            <i class="fa fa-map-marker"></i>
+            {{contact.address1}}
+          </h6>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fa fa-phone"></i>
+              <span> {{contact.phone1}}</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <span> {{contact.email1}}</span>
+            </li>
+          </ul>
+        </div>
+        <div class="ml-4">
+          <h6 >
+            <i class="fa fa-map-marker"></i>
+            {{contact.address2}}
+          </h6>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fa fa-phone"></i>
+              <span> {{contact.phone2}}</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <span> {{contact.email2}}</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
-    <div class="col-12 col-md-6">
-      <app-contact-form></app-contact-form>
+    <div class="col-12 col-md-5 " data-aos="flip-left">
+      <app-contact-form ></app-contact-form>
     </div>
   </div>
 </div>

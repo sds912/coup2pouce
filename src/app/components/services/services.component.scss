@@ -1,13 +1,49 @@
 #card-1{
   border: none !important;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  height: 240px;
+
+  height: 260px;
+  background-color: transparent ;
+  cursor: pointer;
+  transition: background-color 1s;
+  padding: 1.5em 1em;
+
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#card-1:hover{
+    background-color: #96CEFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    img{
+      filter: opacity(0.5) drop-shadow(0 0 0 #96CEFF);
+    }
+
 }
 
 
+ul{
+  li{
+    line-height: 36px;
 
+  }
+}
 
   img{
-    width: 85px !important;
-    margin: 0 auto;
+    width: 68px !important;
+
   }
+
+  @media only screen and (max-width: 768px) {
+    img{
+      width: 68px !important;
+      margin: 0 auto;
+
+    }
+     i{
+      display: none;
+     }
+    ul{
+      margin: 0 auto;
+    }
+  }
+
