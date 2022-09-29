@@ -1,0 +1,13 @@
+span{
+  font-weight: 300;
+}
+.card{
+  border-radius: 0 !important;
+  border: .5px solid #f4f4f4;
+
+}
+
+.card:hover{
+  transition: .5s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

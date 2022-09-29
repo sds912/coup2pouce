@@ -1,7 +1,7 @@
 import { MapViewerComponent } from './components/map-viewer/map-viewer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -21,6 +21,7 @@ import { CustomSliderComponent } from './components/custom-slider/custom-slider.
 import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
 import { IndustryComponent } from './components/industry/industry.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -46,11 +47,13 @@ import { GoogleMapsModule } from '@angular/google-maps';
 
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
     GoogleMapsModule,
     AppRoutingModule,
     HttpClientModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    CarouselModule
 
 
   ],

@@ -1,1 +1,12 @@
-<p>industry works!</p>
+<div class="container-fluid my-5">
+    <h5>{{industry.title}}</h5>
+    <p class="text-muted">{{industry.desc}}</p>
+  <div class="row">
+    <div *ngFor="let i of industry!.items" class="col-md-2 col-4 card" data-aos="fade-right">
+      <div class="text-center p-2">
+        <img [src]="i.icon" [alt]="i.label"/> <br>
+        <span class="mt-2 text-muted">{{i.label}}</span>
+      </div>
+    </div>
+  </div>
+</div>

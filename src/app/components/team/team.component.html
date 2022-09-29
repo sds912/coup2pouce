@@ -1,1 +1,17 @@
-<p>team works!</p>
+<div class="container-fluid  mb-5">
+  <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let i of team.people">
+        <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
+          <img class="card-img-top" src="assets/profil/pape.jpg" [alt]="i.name">
+          <div class="card-body text-center">
+            <h6>{{i.name}}</h6>
+            <p class="text-muted">{{i.role}}</p>
+           <p>
+            <button class="btn btn-outline-default"><i class="fa fa-linkedin"></i></button>
+            <button class="btn btn-outline-default"><i class="fa fa-twitter"></i></button>
+           </p>
+          </div>
+        </div>
+      </ng-template>
+  </owl-carousel-o>
+</div>

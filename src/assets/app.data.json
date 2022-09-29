@@ -237,8 +237,9 @@
   ],
   "team":    {
     "desc": "",
-    "poeple": [
+    "people": [
       {
+        "id": 1,
         "name": "Alioue Touré",
         "role": "Ingénieur d'Affaire",
         "desc": "",
@@ -250,6 +251,7 @@
         ]
       },
       {
+        "id": 2,
         "name": "Papa Babacar Ngor Senghor",
         "role": "IT Manager",
         "desc": "",
@@ -261,6 +263,7 @@
         ]
       },
       {
+        "id": 3,
         "name": "Abdoulaye Wade",
         "role": "Chef de Projet",
         "desc": "",
@@ -272,6 +275,7 @@
         ]
       },
       {
+        "id": 4,
         "name": "Mansour Yade",
         "role": "Chef de Projet",
         "desc": "",
@@ -283,6 +287,7 @@
         ]
       },
       {
+        "id": 5,
         "name": "Gora",
         "role": "Chef de Projet",
         "desc": "",
@@ -295,5 +300,59 @@
       }
     ]
 
+  },
+  "industry":{
+    "title": "Nous travaillons avec",
+    "desc": "Les entrprises qui évoluent dans",
+    "items": [
+      {
+        "label":"E-commerce",
+        "icon": "assets/industry/ecommerce.png"
+      },
+      {
+        "label":"Education",
+        "icon": "assets/industry/graduation.png"
+      },
+      {
+        "label":"Fintech",
+        "icon": "assets/industry/fintech.png"
+      },
+      {
+        "label":"Technologie",
+        "icon": "assets/industry/technology.png"
+      },
+      {
+        "label":"Santé",
+        "icon": "assets/industry/healthcare.png"
+      },
+      {
+        "label":"Aviation",
+        "icon": "assets/industry/fly.png"
+      },
+      {
+        "label":"Energie",
+        "icon": "assets/industry/energy.png"
+      },
+      {
+        "label":"Média",
+        "icon": "assets/industry/media.png"
+      },
+      {
+        "label":"Crypto monnaies",
+        "icon": "assets/industry/bitcoin.png"
+      },
+      {
+        "label":"Télécomunication",
+        "icon": "assets/industry/signal.png"
+      },
+      {
+        "label":"Banque",
+        "icon": "assets/industry/bank.png"
+      },
+      {
+        "label":"Assurance",
+        "icon": "assets/industry/assurance.png"
+      }
+    ]
   }
 }
