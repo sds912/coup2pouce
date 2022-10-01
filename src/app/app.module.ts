@@ -22,6 +22,10 @@ import { ContactFormComponent } from './components/forms/contact-form/contact-fo
 import { IndustryComponent } from './components/industry/industry.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { OurWorkComponent } from './components/our-work/our-work.component';
+import { TemonialsComponent } from './components/temonials/temonials.component';
+import { CompanyWorkingWhithComponent } from './components/company-working-whith/company-working-whith.component';
+import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';
 
 
 
@@ -43,7 +47,11 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     CustomSliderComponent,
     ContactComponent,
     IndustryComponent,
-    MapViewerComponent
+    MapViewerComponent,
+    OurWorkComponent,
+    TemonialsComponent,
+    CompanyWorkingWhithComponent,
+    HowWeWorkComponent
 
   ],
   imports: [
