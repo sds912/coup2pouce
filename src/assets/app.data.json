@@ -95,7 +95,11 @@
       }
     ]
   },
-  "header":  {},
+  "header":  {
+    "slogan": "Innovation Digitale",
+    "desc": "Votre transformation digitale commence ici.Nous avons une expérience riche et varié en Architecture, Developpement et Deploiement avec les meilleurs technologies.",
+    "actionBtn": "Déposer un projet"
+  },
   "service": {
     "title": "Nos Services",
     "desc": "Nos services de développement de logiciels fournissent des solutions spécifiques à l'industrie qui alignent les personnes, les processus et les systèmes pour faire évoluer votre entreprise.",

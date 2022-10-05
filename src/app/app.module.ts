@@ -26,6 +26,7 @@ import { OurWorkComponent } from './components/our-work/our-work.component';
 import { TemonialsComponent } from './components/temonials/temonials.component';
 import { CompanyWorkingWhithComponent } from './components/company-working-whith/company-working-whith.component';
 import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';
+import { StarRatingModule } from 'angular-star-rating';
 
 
 
@@ -61,7 +62,8 @@ import { HowWeWorkComponent } from './components/how-we-work/how-we-work.compone
     AppRoutingModule,
     HttpClientModule,
     NgImageSliderModule,
-    CarouselModule
+    CarouselModule,
+    StarRatingModule.forRoot()
 
 
   ],

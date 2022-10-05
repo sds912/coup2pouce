@@ -33,9 +33,11 @@
               "./node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
               "./node_modules/aos/dist/aos.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/css-star-rating/css/star-rating.min.css",
               "src/styles.scss"
             ],
             "scripts": [
+              "./src/assets/js/service.js",
               "./node_modules/aos/dist/aos.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]

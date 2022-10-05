@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+@import '~css-star-rating/css/star-rating.min.css';
 
 html, body{
   max-width: 100% !important;
@@ -48,3 +50,166 @@ html, body{
   background: none !important;
   display: none !important;
 }
+
+
+/*! CSS Used from: http://rocket.dan-fisher.com/vendor/bootstrap/bootstrap.min.css */
+section{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+h1{font-size:2em;margin:0.67em 0;}
+@media print{
+*,*:before,*:after{background:transparent!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+a[href^="#"]:after{content:"";}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:hover,a:focus{color:#23527c;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+h1,h5{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h1{margin-top:20px;margin-bottom:10px;}
+h5{margin-top:10px;margin-bottom:10px;}
+h1{font-size:36px;}
+h5{font-size:14px;}
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-left:-15px;margin-right:-15px;}
+.col-md-2{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+@media (min-width:992px){
+.col-md-2{float:left;}
+.col-md-2{width:16.66666667%;}
+}
+.container:before,.container:after,.row:before,.row:after{content:" ";display:table;}
+.container:after,.row:after{clear:both;}
+/*! CSS Used from: http://rocket.dan-fisher.com/css/style.css */
+a{color:#ff7149;text-decoration:none;}
+a:hover,a:focus{color:#fb3700;text-decoration:underline;outline:none;}
+h1,h5{padding:0;margin-bottom:2em;margin-top:0;padding-top:0;line-height:1.2;font-family:'Exo 2', sans-serif;font-weight:600;color:#746981;}
+h1{margin-bottom:.5em;font-style:46px;}
+h5{font-size:18px;margin-bottom:1.25em;}
+h5{font-weight:700;}
+.section-title-wrapper{text-align:center;position:relative;margin-bottom:2em;}
+@media (min-width: 768px){
+.section-title-wrapper{margin-bottom:4em;}
+}
+@media (min-width: 992px){
+.section-title-wrapper{margin-bottom:6em;}
+}
+.section-title-wrapper:before,.section-title-wrapper:after{content:"";display:block;position:absolute;left:50%;bottom:0;width:5px;height:5px;background:#ff7149;border-radius:50%;}
+.section-title-wrapper:before{margin-left:-16px;}
+.section-title-wrapper:after{margin-left:11px;}
+.section-title-inner{position:relative;padding-bottom:12px;}
+.section-title-inner:before{content:"";display:block;position:absolute;left:50%;bottom:0;width:5px;height:5px;background:#ff7149;border-radius:50%;margin-left:-2px;}
+.section-title{font-size:21px;text-align:center;color:#4d306e;font-family:'Open Sans', sans-serif;font-weight:700;margin-bottom:.2em;}
+@media (min-width: 768px){
+.section-title{font-size:36px;}
+}
+@media (min-width: 992px){
+.section-title{font-size:46px;}
+}
+.section-desc{display:block;padding-bottom:30px;font-size:16px;text-transform:uppercase;font-family:'Exo 2', sans-serif;font-weight:300;color:#4d306e;}
+.page-section{padding:30px 0;position:relative;}
+@media (min-width: 768px){
+.page-section{padding:60px 0;}
+}
+@media (min-width: 992px){
+.page-section{padding:100px 0;}
+}
+.page-section__darkest{background-color:#36274c;background-image:url(http://rocket.dan-fisher.com/images/bg-section-darkest.jpg);background-position:center center;background-repeat:no-repeat;color:#fff;padding:114px 0 150px 0;overflow:hidden;transform:translateZ(0);}
+.page-section__darkest:before{content:"";display:block;position:absolute;background:url(http://rocket.dan-fisher.com/images/bg-section-cta-top-inside.svg) no-repeat 50% 0;background-size:contain;width:100%;height:30px;top:0;right:0;}
+.page-section__darkest:after{content:"";display:block;position:absolute;background:url(http://rocket.dan-fisher.com/images/bg-section-cta-bottom-inside.svg) no-repeat 50% 100%;background-size:contain;width:100%;height:30px;bottom:0;right:0;}
+.page-section__darkest .section-title{color:#fff;}
+.page-section__darkest .section-desc{color:#fff;}
+.timeline{position:relative;}
+@media (min-width: 992px){
+.timeline:after{content:"";display:block;position:absolute;height:2px;left:0;right:0;top:54px;z-index:1;background-image:-webkit-linear-gradient(left, #7648a3 0%, #836aa0 100%);background-image:-o-linear-gradient(left, #7648a3 0%, #836aa0 100%);background-image:linear-gradient(to right, #7648a3 0%, #836aa0 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7648a3', endColorstr='#ff836aa0', GradientType=1);}
+}
+.timeline > div{text-align:center;padding-bottom:40px;}
+@media (min-width: 992px){
+.timeline > div{margin-bottom:0;}
+}
+.timeline > div > a{display:block;position:relative;color:#fff;-webkit-transition:0.2s;-o-transition:0.2s;transition:0.2s;}
+.timeline > div > a h5{font-size:14px;color:#b59ecf;font-family:'Open Sans', sans-serif;text-transform:uppercase;font-weight:700;position:relative;margin-bottom:10px;-webkit-transition:0.2s;-o-transition:0.2s;transition:0.2s;}
+@media (min-width: 992px){
+.timeline > div > a h5{margin-bottom:36px;}
+}
+.timeline > div > a .desc-holder{display:block;position:relative;padding-top:14px;}
+@media (min-width: 992px){
+.timeline > div > a .desc-holder{padding-top:39px;}
+}
+.timeline > div > a .desc-holder:before{content:"";display:block;position:absolute;left:50%;top:0;width:12px;height:12px;margin:-3px 0 0 -6px;background:#413458;border:2px solid #836aa0;border-radius:50%;z-index:2;}
+@media (min-width: 992px){
+.timeline > div > a .desc-holder:after{content:"\f00c";display:block;position:absolute;font-size:14px;left:50%;top:0;margin:-3px 0 0 -6px;color:#ff7149;z-index:2;opacity:0;-webkit-transition:0.2s;-o-transition:0.2s;transition:0.2s;-webkit-transition-delay:0;transition-delay:0;font-family:'FontAwesome';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+}
+.timeline > div > a .desc-holder .desc{display:block;font-family:'Exo 2', sans-serif;font-weight:300;-webkit-transition:0.2s;-o-transition:0.2s;transition:0.2s;opacity:.4;}
+.timeline > div > a:hover{text-decoration:none;}
+@media (min-width: 992px){
+.timeline > div > a:hover h5{color:#f9f6f3;-webkit-transform:translate(0, -14px);-ms-transform:translate(0, -14px);-o-transform:translate(0, -14px);transform:translate(0, -14px);}
+}
+@media (min-width: 992px){
+.timeline > div > a:hover .desc-holder:before{-webkit-transform:scale(4, 4);-ms-transform:scale(4, 4);-o-transform:scale(4, 4);transform:scale(4, 4);background:rgba(131, 106, 160, 0.5);border-width:0;}
+}
+@media (min-width: 992px){
+.timeline > div > a:hover .desc-holder:after{opacity:1;-webkit-transition-delay:0.05s;transition-delay:0.05s;}
+}
+@media (min-width: 992px){
+.timeline > div > a:hover .desc-holder .desc{-webkit-transform:translate(0, 30px);-ms-transform:translate(0, 30px);-o-transform:translate(0, 30px);transform:translate(0, 30px);opacity:1;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Exo 2';font-style:italic;font-weight:400;src:local('Exo 2 Italic'), local('Exo2-Italic'), url(https://fonts.gstatic.com/s/exo2/v4/7cHov4okm5zmbtYtG-gc5UIo.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:italic;font-weight:400;src:local('Exo 2 Italic'), local('Exo2-Italic'), url(https://fonts.gstatic.com/s/exo2/v4/7cHov4okm5zmbtYtG-Ic5UIo.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:italic;font-weight:400;src:local('Exo 2 Italic'), local('Exo2-Italic'), url(https://fonts.gstatic.com/s/exo2/v4/7cHov4okm5zmbtYtG-wc5Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:200;src:local('Exo 2 Extra Light'), local('Exo2-ExtraLight'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt7nCvs_wH8RnA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:200;src:local('Exo 2 Extra Light'), local('Exo2-ExtraLight'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt7nCvs1wH8RnA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:200;src:local('Exo 2 Extra Light'), local('Exo2-ExtraLight'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt7nCvs7wH8.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:300;src:local('Exo 2 Light'), local('Exo2-Light'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6DCfs_wH8RnA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:300;src:local('Exo 2 Light'), local('Exo2-Light'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6DCfs1wH8RnA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:300;src:local('Exo 2 Light'), local('Exo2-Light'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6DCfs7wH8.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:400;src:local('Exo 2'), local('Exo2-Regular'), url(https://fonts.gstatic.com/s/exo2/v4/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:600;src:local('Exo 2 Semi Bold'), local('Exo2-SemiBold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt73D_s_wH8RnA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:600;src:local('Exo 2 Semi Bold'), local('Exo2-SemiBold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt73D_s1wH8RnA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:600;src:local('Exo 2 Semi Bold'), local('Exo2-SemiBold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt73D_s7wH8.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6TDvs_wH8RnA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6TDvs1wH8RnA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Exo 2';font-style:normal;font-weight:700;src:local('Exo 2 Bold'), local('Exo2-Bold'), url(https://fonts.gstatic.com/s/exo2/v4/7cHrv4okm5zmbt6TDvs7wH8.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhmIqOjjg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhvIqOjjg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhnIqOjjg.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhoIqOjjg.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhkIqOjjg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhlIqOjjg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'FontAwesome';src:url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.eot?v=4.6.3');src:url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'),url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),url('http://rocket.dan-fisher.com/vendor/font-awesome/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
