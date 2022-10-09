@@ -6,8 +6,8 @@ h1{
 }
 
 h5{
-  font-size: 16px ;
-  font-weight: 400;
+  font-size: 18px ;
+  font-weight: 500;
   line-height: 30px ;
 
 }
@@ -20,21 +20,24 @@ h5{
   }
   h5{
     font-size: 16px !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
   }
 }
 
 
 
 .btn{
-  background: rgb(234,101,166) !important;
-background: linear-gradient(90deg, rgba(234,101,166,1) 0%, rgba(71,153,180,0.9728933809852066) 100%) !important;
-
+  background-color:#0D87A5;
+  transition: background-color .5s;
+ text-transform: uppercase;
 border: none;
 outline: none;
 padding: 1em 3em;
 color: #FFFFFF;
 font-size: 18px;
 font-weight: 500;
+&:hover{
+  background-color: #EA65A6;
+}
 }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-how-we-work',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./how-we-work.component.scss']
 })
 export class HowWeWorkComponent implements OnInit {
+
+  @Input() workprocess: any;
 
   constructor() { }
 

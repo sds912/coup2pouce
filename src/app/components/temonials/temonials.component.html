@@ -1,18 +1,18 @@
 <div class="container">
-  <div class="row">
-    <div class="col-12 col-md-4" *ngFor="let i of [1,2,3,4]">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let i of [1,2,3,4]">
       <div class="card card-body">
         <img src="https://media.istockphoto.com/photos/happy-millennial-afro-american-business-woman-posing-isolated-on-picture-id1386479313?b=1&k=20&m=1386479313&s=170667a&w=0&h=axEYGqmMKgDx8nk47CRAuGc27P1mnEu3zDJCdK7WlsE=" alt="...">
         <p class="message text-muted mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolores fugiat vitae quas explicabo deserunt rerum nulla, cumque facere repudiandae nobis odit, corrupti assumenda earum, nesciunt nihil optio asperiores corporis.</p>
         <hr>
         <div>
-          <h5>Babacard</h5>
+          <h5>Babacar</h5>
           <div class="d-flex justify-content-between">
             <span class="text-muted">CEO of Sonatel</span>
             <star-rating [starType]="'svg'" [rating]="2.63"></star-rating>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </ng-template>
+</owl-carousel-o>
 </div>

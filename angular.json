@@ -37,7 +37,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "./src/assets/js/service.js",
               "./node_modules/aos/dist/aos.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]

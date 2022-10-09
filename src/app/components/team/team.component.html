@@ -1,4 +1,5 @@
 <div class="container-fluid  mb-5">
+  <app-title [title]="team.title" [subTitle]="team.subTitle"></app-title>
   <owl-carousel-o [options]="customOptions">
       <ng-template carouselSlide *ngFor="let i of team.people">
         <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
@@ -6,7 +7,6 @@
           <div class="card-body text-left">
             <h6>{{i.name}}</h6>
             <p class="text-muted">{{i.role}}</p>
-
             <button class="btn btn-outline-default"><i class="fa fa-linkedin fa-lg" style="color: #3b5998 "></i></button>
             <button class="btn btn-outline-default"><i class="fa fa-twitter fa-lg" style="color: #00acee"></i></button>
           </div>

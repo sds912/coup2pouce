@@ -98,7 +98,7 @@
   "header":  {
     "slogan": "Innovation Digitale",
     "desc": "Votre transformation digitale commence ici.Nous avons une expérience riche et varié en Architecture, Developpement et Deploiement avec les meilleurs technologies.",
-    "actionBtn": "Déposer un projet"
+    "actionBtn": "Contactez-nous"
   },
   "service": {
     "title": "Nos Services",
@@ -240,7 +240,8 @@
 
   ],
   "team":    {
-    "desc": "",
+    "title": "Notre Equipe",
+    "subTitle": "Des jeunes passionnés et expérimentés",
     "people": [
       {
         "id": 1,
@@ -311,7 +312,7 @@
 
   },
   "industry":{
-    "title": "Nous travaillons avec",
+    "title": "Avec Qui Tavaillons-Nous ?",
     "desc": "Les entrprises qui évoluent dans",
     "items": [
       {
@@ -363,5 +364,43 @@
         "icon": "assets/industry/assurance.png"
       }
     ]
+  },
+  "workprocess": {
+    "title": "Comment travailons-nous ?",
+     "subTitle": "Nous respectons les phases suivants",
+     "items": [
+      {
+        "label": "Etude de besoin",
+        "desc": "Il important pour nous de bien definir vos besoins afin d'apporter un solution adéquate.",
+        "icon": ""
+      },
+      {
+        "label": "Conception",
+        "desc": "Une phase de conception nous permet de s'assurer que notre solution repond à vos besoins",
+        "icon": ""
+      },
+      {
+        "label": "Développement",
+        "desc":"Une fois dans l'usine de développement, les meilleurs pratiques afin de respecter les normes",
+        "icon": ""
+      },
+      {
+        "label": "Test",
+        "desc":"",
+        "icon": ""
+      },
+      {
+        "label": "Déploiement",
+        "desc": "",
+        "icon": ""
+      },
+      {
+        "label": "Suivi et Monitoring",
+        "desc":"",
+        "icon": ""
+      }
+
+
+     ]
   }
 }

@@ -1,61 +1,14 @@
 
 <section class="page-section page-section__darkest" id="section-work">
   <div class="container">
-
-    <div class="section-title-wrapper">
-      <div class="section-title-inner">
-        <h1 class="section-title">How We Work</h1>
-        <span class="section-desc">Example of work process</span>
-      </div>
-    </div>
-
+    <app-title [title]="workprocess.title" [subTitle]="workprocess.subTitle"></app-title>
     <!-- Timeline -->
     <div class="timeline row">
-      <div class="col-md-2">
+      <div class="col-md-2" *ngFor="let i of workprocess.items">
         <a href="#" class="item-link">
-          <h5>Project Start</h5>
+          <h5>{{i.label}}</h5>
           <div class="desc-holder">
-            <span class="desc">Approval of the terms of reference</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-2">
-        <a href="#" class="item-link">
-          <h5>PSD Design</h5>
-          <div class="desc-holder">
-            <span class="desc">Graphic part of the template</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-2">
-        <a href="#" class="item-link">
-          <h5>HTML Version</h5>
-          <div class="desc-holder">
-            <span class="desc">Development of high-quality layout</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-2">
-        <a href="#" class="item-link">
-          <h5>CMS Template</h5>
-          <div class="desc-holder">
-            <span class="desc">CMS definition and conversion</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-2">
-        <a href="#" class="item-link">
-          <h5>approval stage</h5>
-          <div class="desc-holder">
-            <span class="desc">Stage testing &amp; troubleshooting</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-2">
-        <a href="#" class="item-link">
-          <h5>24/7 Support</h5>
-          <div class="desc-holder">
-            <span class="desc">Highly qualified template support</span>
+            <span class="desc">{{i.desc}}</span>
           </div>
         </a>
       </div>
