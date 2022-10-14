@@ -2,7 +2,7 @@
   <app-title [title]="service.title" [subTitle]="service.desc"></app-title>
   <div class="row mt-5">
     <div data-aos="zoom-in" class="col-12 col-md-3 mt-3"  *ngFor="let s of service.items">
-       <div class=" card card-body text-center text-md-left"   id="card-1">
+       <div class=" card card-body text-center text-md-left"   id="card-1" [ngStyle]="{'background-color': s.color }">
           <img class="img-fluid" [src]="s.icon" [alt]="s.label"  >
          <h5 class="card-title mt-3">{{s.label}}</h5>
          <ul class="list-unstyled">

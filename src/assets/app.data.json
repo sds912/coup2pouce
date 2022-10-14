@@ -109,12 +109,14 @@
         "icon": "assets/services/web.png",
         "desc": "",
         "path": "",
+        "color": "#f25c78",
         "solutions": ["Application Métier", "Site Web", "Streaming App"]
       },
       {
         "label": "Développement Mobile ",
         "icon": "assets/services/mobile.png",
         "desc": "",
+        "color": "#53518c",
         "path": "",
         "solutions": ["IOS", "Android", "Cross-platform"]
       },
@@ -122,6 +124,7 @@
         "label": "DevOps",
         "icon": "assets/services/devops.png",
         "desc": "",
+        "color": "#f29c50",
         "path": "",
         "solutions": ["CI / CD", "Automation", "Cloud"]
       },
@@ -129,6 +132,7 @@
         "label": "UX / UI Design",
         "icon": "assets/services/design.png",
         "desc": "",
+        "color": "#222940",
         "path": "",
         "solutions": ["Vusial Design", "Art Design", "Web Design"]
       }
