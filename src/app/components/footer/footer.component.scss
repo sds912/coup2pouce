@@ -1,14 +1,36 @@
-.container-fluid{
+.wrapper{
   min-height: 310px;
+  padding: 5em;
+  padding-top: 12em;
+  padding-bottom: 2em;
+  font-size: 11px;
+  font-weight: 400;
 }
 
-a, li{
-  color: #F4F4F4;
-  line-height: 38px;
-  font-weight: 200;
+.rsc{
+ display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  color: #DC5459;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img{
+  width: 160px;
+}
+
+li{
+  color: #adadad;
+  line-height: 32px;
+  font-size: 9px;
 }
 
 h4{
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
 }

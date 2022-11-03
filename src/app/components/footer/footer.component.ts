@@ -11,6 +11,10 @@ export class FooterComponent implements OnInit {
 
   @Input() footer: any;
 
+
+  copyRight=`  © ${new Date().getFullYear()} coup2pouce tous droits réservés`
+
+
   ngOnInit(): void {
   }
 

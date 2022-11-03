@@ -115,7 +115,7 @@ export class AppComponent implements OnInit {
         }
       ]
     },
-    "copyRight": ` Coup2pouce © ${this.year} tous droits réservés powered by`
+    "copyRight": `  © ${this.year} coup2pouce tous droits réservés`
 
 
   }

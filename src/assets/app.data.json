@@ -93,11 +93,63 @@
         "label": "L'équipe",
         "url": ""
       }
-    ]
+    ],
+    "services": {
+      "label": "Nos Services",
+      "items": [
+        {
+          "label": "Developpement Web",
+          "path": ""
+
+        },
+        {
+          "label": "Developpement Mobile",
+          "path": ""
+
+        },
+        {
+          "label": "DevOps",
+          "path": ""
+
+        },
+        {
+          "label": "Design",
+          "path": ""
+
+        }
+      ]
+    },
+    "contacts": {
+      "email1": "coup2pouce@gmail.com",
+      "email2": "senghor.pape912@hotmail.com",
+      "fax1": "+33 000 00 00",
+      "fax2": "+33 000 00 00",
+      "phone1": "+221 77 744 36 63",
+      "phone2": "+221 77 744 36 63",
+      "socialLinks":[
+        {
+          "label": "LinkedIn",
+          "icon":  "fa fa-linkedin",
+          "url":   ""
+        },
+        {
+          "label": "Facebook",
+          "icon":  "fa fa-facebook",
+          "url":   ""
+        },
+        {
+          "label": "Twitter",
+          "icon":  "fa fa-twitter",
+          "url":   ""
+        }
+      ]
+    }
+
+
   },
   "header":  {
     "slogan": "Innovation Digitale",
-    "desc": "Votre transformation digitale commence ici.Nous avons une expérience riche et varié en Architecture, Developpement et Deploiement avec les meilleurs technologies.",
+    "desc": "Nous aidons les marques à créer des solutions digitales qui répondent à des problématiques au cœur de leur métier.",
     "actionBtn": "Contactez-nous"
   },
   "service": {
