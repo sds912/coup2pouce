@@ -1,16 +1,30 @@
 <div class="container-fluid  mb-5">
-  <app-title [title]="team.title" [subTitle]="team.subTitle"></app-title>
-  <owl-carousel-o [options]="customOptions">
-      <ng-template carouselSlide *ngFor="let i of team.people">
-        <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
-          <img class="card-img-top" [src]="i.img" [alt]="i.name">
-          <div class="card-body text-left">
-            <h6>{{i.name}}</h6>
-            <p class="text-muted">{{i.role}}</p>
-            <button class="btn btn-outline-default"><i class="fa fa-linkedin fa-lg" style="color: #3b5998 "></i></button>
-            <button class="btn btn-outline-default"><i class="fa fa-twitter fa-lg" style="color: #00acee"></i></button>
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <div class="p-5">
+        <h5>Notre Equipe</h5>
+        <p class="mt-4">Votre projet est entre de bonne mains</p>
+        <p>Nous s'assurons que votre projet soit
+          réaliser par notre équipe de développeur en
+          appliquant les meilleurs pratiques.
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-md-8">
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let i of team.people">
+          <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
+            <img class="card-img-top" [src]="i.img" [alt]="i.name">
+            <div class="card-body text-left">
+              <h6>{{i.name}}</h6>
+              <p class="text-muted">{{i.role}}</p>
+              <button class="btn btn-outline-default"><i class="fa fa-linkedin fa-lg" style="color: #3b5998 "></i></button>
+              <button class="btn btn-outline-default"><i class="fa fa-twitter fa-lg" style="color: #00acee"></i></button>
+            </div>
           </div>
-        </div>
-      </ng-template>
-  </owl-carousel-o>
+        </ng-template>
+    </owl-carousel-o>
+    </div>
+  </div>
+
 </div>

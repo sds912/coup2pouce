@@ -1,18 +1,41 @@
-<div class="container">
-  <app-title [title]="service.title" [subTitle]="service.desc"></app-title>
-  <div class="row mt-5">
-    <div data-aos="zoom-in" class="col-12 col-md-3 mt-3"  *ngFor="let s of service.items">
-       <div class=" card card-body text-center text-md-left"   id="card-1" [ngStyle]="{'background-color': s.color }">
-          <img class="img-fluid" [src]="s.icon" [alt]="s.label"  >
-         <h5 class="card-title mt-3">{{s.label}}</h5>
-         <ul class="list-unstyled">
-          <li *ngFor="let sol of s.solutions">
-            <i class="fa fa-check-circle text-success" aria-hidden="true"></i>
-            <span class="ml-2">{{sol}}</span>
-          </li>
-         </ul>
-       </div>
+<div class="container-fluid m-0 p-0">
+  <div class="row m-0 p-P">
+    <div class="col-12 col-md-4 p-0 m-0">
+      <div class="card card-body m-0">
+        <div class="d-flex">
+          <img src="assets/services/web.png" alt="" class="img-fluid" style="width: 64px; height: 64px">
+          <div class="ml-2">
+            <h4>Développement Web</h4>
+            <p class="text-muted">Des applications métiers calibrées sur vos besoins</p>
+          </div>
+        </div>
+
+      </div>
     </div>
- </div>
+    <div class="col-12 col-md-4 p-0 m-0">
+      <div class="card card-body m-0">
+        <div class="d-flex">
+          <img src="assets/services/mobile.png" alt="" class="img-fluid" style="width: 64px; height: 64px">
+          <div class="ml-2">
+            <h4>Développement Mobile</h4>
+            <p class="text-muted">Nos solutions mobiles vous simplifient la vie et celle de vos utilisateurs</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-12 col-md-4 p-0 m-0">
+      <div class="card card-body m-0">
+        <div class="d-flex">
+          <img src="assets/services/design.png" alt="" class="img-fluid" style="width: 64px; height: 64px">
+          <div class="ml-2">
+            <h4>UX | UI Design</h4>
+            <p class="text-muted">Un design simple et captivant pour toutes platforme</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>
 

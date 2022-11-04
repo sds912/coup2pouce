@@ -1,8 +1,8 @@
 .wrapper{
+  background-color: #0F38A7;
   background-image: url("/assets/header/back.jpg");
   width: 100%;
-  height: 100vh;
-  background-color: red;
+  height: 77vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,29 +13,53 @@
 
 }
 
+
 h1{
-  font-size: 72px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #ffffff;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "basis_grotesque_probold",sans-serif;
+    font-size: 2.375em;
+    line-height: .95;
+    letter-spacing: -1px
+
 }
 
 p{
-  color: #96CEFF;
-  font-size: 16px;
-  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .overlayer{
   width: 100%;
-  height: 100vh;
-  background-color: #00000078;
+  height: 77vh;
+  background-color: #08265260;
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 45vh;
+  padding-top: 25vh;
+
 
 }
+
+
+
+@media  (min-width: 600px) {
+  .overlayer{
+    padding-left: 8em;
+
+  }
+}
+
+@media  (max-width: 600px) {
+  .overlayer, .wrapper{
+
+  height: 65vh;
+
+  }
+}
+
+
 
 
 

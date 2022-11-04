@@ -1,52 +1,16 @@
-#card-1{
-  border: none !important;
-
-  height: 260px;
-  cursor: pointer;
-  transition: background-color 1s;
-  padding: 1.5em 1em;
-
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  color: #FFFFFF !important;
-}
-
-.card-title{
-  color: #FFFFFF !important;
-}
-#card-1:hover{
-    background-color: #96CEFF;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    img{
-      filter: opacity(0.5) drop-shadow(0 0 0 #96CEFF);
-    }
+h4{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
 
 }
-
-
-ul{
-  li{
-    line-height: 36px;
-
-  }
+.card{
+  border-radius: 0;
 }
 
-  img{
-    width: 68px !important;
+p{
+  font-size: 16px;
+  font-size: 400;
+}
 
-  }
-
-  @media only screen and (max-width: 768px) {
-    img{
-      width: 68px !important;
-      margin: 0 auto;
-
-    }
-     i{
-      display: none;
-     }
-    ul{
-      margin: 0 auto;
-    }
-  }
 

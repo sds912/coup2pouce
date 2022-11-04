@@ -1,10 +1,10 @@
 .wrapper{
   min-height: 310px;
-  padding: 5em;
-  padding-top: 12em;
+  padding: 2em;
+  padding-top: 3em;
   padding-bottom: 2em;
-  font-size: 11px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .rsc{
@@ -27,10 +27,14 @@ img{
 li{
   color: #adadad;
   line-height: 32px;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 h4{
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+@media (max-width: 600px) {
+
 }
