@@ -1,0 +1,30 @@
+.container-fluid{
+  padding: 3em 0;
+  background-color: #570A50;
+  background-image: url("../../../../assets/images/team.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF !important;
+
+}
+
+h5{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.card{
+  border: none !important;
+  background-color: transparent !important;
+}
+
+h6{
+  font-size: 18px;
+  font-weight: 500;
+}

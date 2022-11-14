@@ -1,0 +1,11 @@
+<div class="container bg-white px-5 py-2" style="height: 100vh">
+  <h5 class="my-4">Ajouter un article</h5>
+  <quill-editor [(ngModel)]="htmlText"
+  [modules]="quillConfig"
+  (onSelectionChanged)="onSelectionChanged($event)"
+  (onContentChanged)="onContentChanged($event)"></quill-editor>
+  <button (click)="save()">Enrégistrer</button>
+
+</div>
+
+

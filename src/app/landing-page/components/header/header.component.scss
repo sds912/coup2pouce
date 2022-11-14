@@ -1,0 +1,96 @@
+.wrapper{
+  background-color: #171115;
+  background-image: url("/assets/header/header-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+
+
+
+}
+.text{
+  color: #FFFFFF;
+  position: absolute;
+  top: 35vh;
+  right: 60px;
+  h3{
+    font-size: 72px;
+    font-weight: bolder;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+img{
+  width: 48%;
+  position: absolute;
+  bottom: 2px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+  h3{
+    font-size: 40px !important;
+    font-weight: bolder;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .text{
+    top: 25vh;
+    padding-left: 20px;
+
+  }
+  img{
+    width: 90%;
+  }
+  h3{
+    font-size: 38px !important;
+
+  }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h3{
+    font-size: 60px !important;
+    font-weight: bolder;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h3{
+    font-size: 66px !important;
+    font-weight: bolder;
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  h3{
+    font-size: 72px !important;
+    font-weight: bolder;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

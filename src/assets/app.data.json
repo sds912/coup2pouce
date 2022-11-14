@@ -303,7 +303,7 @@
         "id": 1,
         "name": "Alioue Touré",
         "role": "Ingénieur d'Affaire",
-        "img": "https://media-exp1.licdn.com/dms/image/C5603AQGktMPLcLr4vA/profile-displayphoto-shrink_800_800/0/1609811951511?e=1669852800&v=beta&t=U_Dx7zxS2dmjlq5vrfxf6bpYSflqlTPgB3SNLuTAmjA",
+        "img": "assets/images/alioune.png",
         "desc": "",
         "links": [
           {
@@ -316,7 +316,7 @@
         "id": 2,
         "name": "Papa Babacar Ngor Senghor",
         "role": "IT Manager",
-        "img": "https://media-exp1.licdn.com/dms/image/C4E03AQEIePnZ4vxMgA/profile-displayphoto-shrink_800_800/0/1652737661550?e=1669852800&v=beta&t=GHd8UGkGHvaeIHK9ReuJHT7Ekb73b0ixI_oSZiXc-Gs",
+        "img": "assets/images/senghor.png",
         "desc": "",
         "links": [
           {
@@ -329,7 +329,7 @@
         "id": 3,
         "name": "Abdoulaye Wade",
         "role": "Chef de Projet",
-        "img": "https://media-exp1.licdn.com/dms/image/C4E03AQEv95uRR-JRwQ/profile-displayphoto-shrink_800_800/0/1660836616695?e=1669852800&v=beta&t=JI0ZsyWsXICq6YQyUp_dy_IP_8dzdRkNY-qevM7mIuY",
+        "img": "assets/images/wade.png",
         "desc": "",
         "links": [
           {
@@ -342,7 +342,7 @@
         "id": 4,
         "name": "Mansour Yade",
         "role": "Chef de Projet",
-        "img": "https://media-exp1.licdn.com/dms/image/C5603AQHakA1Uo9i1Zw/profile-displayphoto-shrink_800_800/0/1624320710916?e=1669852800&v=beta&t=pPDX66C3KHiTKcNIkNs4YmSqt6A0gZvzXbR2AgtgbrM",
+        "img": "assets/images/mansour.png",
         "desc": "",
         "links": [
           {
@@ -355,7 +355,7 @@
         "id": 5,
         "name": "Gora",
         "role": "Chef de Projet",
-        "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHeNAvRIKEvtQ/profile-displayphoto-shrink_800_800/0/1570182024048?e=1669852800&v=beta&t=E-f-m52qt_8BNYzYEQLlQebSW_PvfGpuPhtJ8-lvAwY",
+        "img": "assets/images/gora.png",
         "desc": "",
         "links": [
           {

@@ -1,10 +1,20 @@
-import { HomeComponent } from './pages/home/home.component';
+import { NotFoundComponent } from './landing-page/components/not-found/not-found.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent },
+  {
+    path:'',
+    loadChildren: () => import('./landing-page/landing-page.module').then(m => m.LandingPageModule)
+   },
+   {
+    path:'blog',
+    loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)
+   },
+   {
+    path:'admin',
+    loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
+   },
   { path: '',   redirectTo: '', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 
