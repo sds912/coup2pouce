@@ -60,8 +60,18 @@
   }
 }
 
+h3{
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
 
 @media (max-width: 600px) {
+  h3{
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+
   .wrapper, .overlayer{
     height: 1200px;
   }

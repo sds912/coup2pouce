@@ -18,10 +18,10 @@ export class TeamComponent implements OnInit {
     navSpeed: 700,
     responsive: {
       0: {
-        items: 3
+        items: 2
       },
       400: {
-        items: 3
+        items: 2
       },
       740: {
         items: 3
