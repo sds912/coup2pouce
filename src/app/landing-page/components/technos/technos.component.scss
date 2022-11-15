@@ -1,14 +1,24 @@
 
-h5{
-  font-size: 36px;
+.container-fluid{
+   max-height: 280px;
+}
+h3{
+  font-size: 14px;
   font-weight: 600;
-  line-height: 48px;
+  text-transform: uppercase;
+
+}
+
+h5{
+  font-size: 32px;
+  font-weight: 800;
 }
 
 @media (max-width: 600px) {
   h5{
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 48px;
+    font-size: 26px;
   }
+  .container-fluid{
+    max-height: 220px;
+ }
 }

@@ -12,9 +12,9 @@
     </div>
     <div class="col-12 col-md-8 px-5">
       <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide *ngFor="let i of team.people">
+        <ng-template carouselSlide *ngFor="let i of team.people" >
           <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
-            <img  [src]="i.img" [alt]="i.name">
+            <img  [src]="i.img" [alt]="i.name" width="80px">
             <div class="card-body text-center">
               <button class="btn btn-outline-default"><i class="fa fa-linkedin fa-lg" style="color: #FFFFFF "></i></button>
               <button class="btn btn-outline-default"><i class="fa fa-twitter fa-lg" style="color: #FFFFFF"></i></button>

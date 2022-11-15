@@ -98,7 +98,7 @@
       "label": "Nos Services",
       "items": [
         {
-          "label": "Developpement Web",
+          "label": "Développement Web",
           "path": ""
 
         },
@@ -108,39 +108,48 @@
 
         },
         {
-          "label": "DevOps",
+          "label": "UI/UX Design",
           "path": ""
 
         },
         {
-          "label": "Design",
-          "path": ""
+          "label": "QA Testing",
+          "path": "#services"
 
+        },
+        {
+          "label": "Consultance IT",
+          "path": "#services"
+
+        },
+        {
+          "label": "Equipe Dédiée",
+          "path":  "#services"
         }
       ]
     },
     "contacts": {
       "email1": "coup2pouce@gmail.com",
       "email2": "senghor.pape912@hotmail.com",
-      "fax1": "+33 000 00 00",
-      "fax2": "+33 000 00 00",
+      "fax1": "+33 6 68 39 93 20",
+      "fax2": "+33 6 68 39 93 20",
       "phone1": "+221 77 744 36 63",
       "phone2": "+221 77 744 36 63",
       "socialLinks":[
         {
           "label": "LinkedIn",
           "icon":  "fa fa-linkedin",
-          "url":   ""
+          "url":   "https://www.linkedin.com/company/coup2pouce-sn/"
         },
         {
           "label": "Facebook",
           "icon":  "fa fa-facebook",
-          "url":   ""
+          "url":   "https://www.linkedin.com/company/coup2pouce-sn/"
         },
         {
           "label": "Twitter",
           "icon":  "fa fa-twitter",
-          "url":   ""
+          "url":   "https://www.linkedin.com/company/coup2pouce-sn/"
         }
       ]
     }
