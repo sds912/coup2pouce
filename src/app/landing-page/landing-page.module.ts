@@ -1,3 +1,4 @@
+import { AboutUsComponent } from './components/about-us/about-us.component';
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';
 import { CompanyWorkingWhithComponent } from './components/company-working-whith/company-working-whith.component';
@@ -11,7 +12,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TitleComponent } from './components/title/title.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
 import { TeamComponent } from './components/team/team.component';
 import { FooterComponent } from './components/footer/footer.component';

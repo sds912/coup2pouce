@@ -9,6 +9,7 @@ import { AngularFireModule} from '@angular/fire/compat';
 import { AngularFirestoreModule} from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule} from '@angular/fire/compat/auth';
 import { SharedModule } from './shared/shared.module';
+import { AnimeDirective } from './anime.directive';
 
 
 
@@ -19,6 +20,8 @@ import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
+    AnimeDirective,
+
 
   ],
   imports: [

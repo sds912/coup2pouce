@@ -2,12 +2,14 @@
 /* Add application styles & imports to this file! */
 @import '~css-star-rating/css/star-rating.min.css';
 @import '~quill/dist/quill.snow.css';
+@import url("https://animejs.com/documentation/assets/css/documentation.css");
+@import url("https://animejs.com/documentation/assets/css/animejs.css");
 
 
 html, body{
   width: 100% !important;
   font-family: 'Roboto', sans-serif !important;
-  background-color: #EFF3FF;
+  background-color: #FFFFFF;
 
 }
 .bg-red{
