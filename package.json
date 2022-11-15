@@ -22,8 +22,6 @@
     "@angular/router": "^14.2.0",
     "angular-star-rating": "^6.0.0",
     "animate.css": "^4.1.1",
-    "@types/animejs": "^3.1.0",
-    "animejs": "^3.1.0",
     "aos": "^2.3.4",
     "bootstrap": "4.6",
     "ng-image-slider": "^6.0.0",
