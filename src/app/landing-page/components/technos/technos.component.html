@@ -1,17 +1,16 @@
-<div class="container-fluid bg-white mt-5" >
+<div class="container-fluid bg-white mt-5" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500" >
   <div class="pl-md-5 pl-1">
     <h3 style="color: #5c0855;">Téchnologies - Solutions</h3>
     <h5 class="mb-5 ">Des technos pour <br/> des solutions </h5>
   </div>
 
-  <ng-image-slider
-  [images]="imageObject"
-  #nav
-  [infinite]="true"
-  [autoSlide]="true"
-  [imagePopup]="false"
-  [imageSize]=""
-  [showArrow]="false" ></ng-image-slider>
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let i of imageObject" >
+      <img  [src]="i.thumbImage" [alt]="i.alt">
+    </ng-template>
+</owl-carousel-o>
 </div>
 
 

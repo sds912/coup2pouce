@@ -23,7 +23,7 @@ export class ServicesComponent implements OnInit {
       icon: "assets/services/mobile-dev.png"
     },
     {
-      title: "UI/XU Design",
+      title: "UI/UX Design",
       desc: "Une expérience utilisateur fluide qui rend vos solutions plus accessibles avec un design captivant",
       icon: "assets/services/design.png"
     },

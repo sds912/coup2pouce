@@ -1,20 +1,20 @@
 <div class="container-fluid my-0">
   <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-6">
       <div class="p-md-5 px-2">
         <h5>Notre Equipe</h5>
         <p class="mt-4">Votre projet est entre de bonnes mains</p>
-        <p>Nous veillons à ce que votre projet soit
-          réalisé par notre équipe de développeurs en
-          appliquant les meilleurs pratiques.
+        <p>Nous veillons à ce que votre projet soit <br>
+           réalisé par notre équipe de développeurs <br>
+            en appliquant les meilleurs pratiques.
         </p>
       </div>
     </div>
-    <div class="col-12 col-md-8 px-5">
+    <div class="col-12 col-md-6 px-5">
       <owl-carousel-o [options]="customOptions">
         <ng-template carouselSlide *ngFor="let i of team.people" >
           <div class="card  mt-3 ml-2" data-aos="fade-up" data-aos-duration="3000" >
-            <img  [src]="i.img" [alt]="i.name" width="80px">
+            <img  [src]="i.img" [alt]="i.name">
             <div class="card-body text-center">
               <button class="btn btn-outline-default"><i class="fa fa-linkedin fa-lg" style="color: #FFFFFF "></i></button>
               <button class="btn btn-outline-default"><i class="fa fa-twitter fa-lg" style="color: #FFFFFF"></i></button>

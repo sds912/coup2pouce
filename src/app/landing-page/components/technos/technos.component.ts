@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-technos',
@@ -9,7 +10,32 @@ export class TechnosComponent implements OnInit {
 
   constructor() { }
 
-  imageObject: Array<object> = [
+  customOptions: OwlOptions = {
+    autoplay: true,
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: true,
+    navSpeed: 700,
+    responsive: {
+      0: {
+        items: 5
+      },
+      400: {
+        items: 5
+      },
+      740: {
+        items: 12
+      },
+      940: {
+        items: 12
+      }
+    }
+  }
+
+
+  imageObject:any = [
 
 {
   thumbImage: 'assets/technos/spring.png',

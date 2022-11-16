@@ -18,7 +18,7 @@ export class NavComponent implements OnInit {
     },
     {
       label: "Qui sommes-nous",
-      path: ""
+      path: "about-us"
     },
     {
       label: "Services",
