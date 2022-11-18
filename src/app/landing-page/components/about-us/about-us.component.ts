@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class AboutUsComponent implements OnInit {
 
   @Input() about: any;
+  @Input() image!: string ;
+
   constructor() { }
 
   ngOnInit(): void {

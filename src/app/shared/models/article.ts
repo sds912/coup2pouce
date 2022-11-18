@@ -5,5 +5,7 @@ export interface Article {
   title: string;
   content: string;
   createdAt: string;
+  lang: string;
+  cover: string;
   author: Author;
 }

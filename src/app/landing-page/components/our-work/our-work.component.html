@@ -1,10 +1,18 @@
-<div class="container-fluid">
+<div class="container">
+  <div class="mb-2 mt-5">
+    <ul class="list-unstyled">
+      <li [class.active]="selected == 1" (click)="selected=1">Design</li>
+      <li [class.active]="selected == 2" (click)="selected=2">Web</li>
+      <li [class.active]="selected == 3" (click)="selected=3">Mobile</li>
+      <li [class.active]="selected == 4" (click)="selected=4">Idées</li>
+    </ul>
+  </div>
    <div class="row">
-     <div class="col-7">
-      <img src="" alt="" class="img-fluid">
+     <div *ngFor="let w of works"
+     class="col-12 col-md-3  p-2">
+     <div class="card">
+      <img [src]="w.image" class="img-fluid" />
      </div>
-     <div class="col-5">
-
      </div>
    </div>
 </div>

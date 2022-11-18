@@ -1,0 +1,44 @@
+.container{
+ margin: 3em auto !important;
+}
+
+ul{
+  display: flex;
+  li{
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .3;
+    cursor: pointer;
+  }
+  li:hover{
+    color: #5C0855;
+
+  }
+}
+
+.card{
+  padding: 0px;
+  border-radius: 0px;
+  position: relative;
+}
+img{
+  cursor: pointer;
+}
+
+.active{
+  color: #5C0855;
+  opacity: 1 !important;
+}
+.card:hover{
+
+  img{
+
+  }
+
+  h3, p{
+
+
+  }
+
+}

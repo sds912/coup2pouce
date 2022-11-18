@@ -1,3 +1,4 @@
+import { NavComponent } from './components/nav/nav.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';
@@ -10,7 +11,6 @@ import { ContactComponent } from './components/contact/contact.component';
 import { CustomSliderComponent } from './components/custom-slider/custom-slider.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TitleComponent } from './components/title/title.component';
-import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
 import { TeamComponent } from './components/team/team.component';
@@ -26,8 +26,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { StarRatingModule } from 'angular-star-rating';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { BlogNewArticlesComponent } from './components/blog-new-articles/blog-new-articles.component';
-import { SharedModule } from '../shared/shared.module';
 import { ArticleCardComponent } from '../shared/components/article-card/article-card.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
+import { AboutUsHeaderComponent } from './components/about-us-header/about-us-header.component';
+import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
 
 
 
@@ -41,7 +43,6 @@ import { ArticleCardComponent } from '../shared/components/article-card/article-
     TeamComponent,
     ContactFormComponent,
     AboutUsComponent,
-    NavComponent,
     TitleComponent,
     NotFoundComponent,
     CustomSliderComponent,
@@ -54,7 +55,11 @@ import { ArticleCardComponent } from '../shared/components/article-card/article-
     HowWeWorkComponent,
     HomeComponent,
     BlogNewArticlesComponent,
-    ArticleCardComponent
+    ArticleCardComponent,
+    SideNavComponent,
+    AboutUsHeaderComponent,
+    AboutUsPageComponent,
+    NavComponent
   ],
   imports: [
     CommonModule,
