@@ -1,9 +1,9 @@
-<div class="container p-5">
+<div class="container p-3 p-md-5">
   <div class="pl-md-5 pl-1">
     <h3 style="color: #5c0855;">Le blog</h3>
     <h5 class="mb-5 ">Articles récents </h5>
   </div>
-  <div class="row">
+  <div class="row px-0 px-md-2">
    <div *ngFor="let article of articles" class="col-12 col-md-4 ">
     <app-article-card [article]="article"></app-article-card>
   </div>
