@@ -4,10 +4,10 @@
   </a>
   <div class="collapse navbar-collapse" >
     <ul class="navbar-nav ml-auto">
-      <li *ngFor="let n of menus" class="nav-item" [class.active]="">
-        <a class="nav-link" [href]="n.path" >{{n.label}}</a>
+      <li *ngFor="let n of menus" class="nav-item"   >
+        <a class="nav-link" routerLink="n.path" routerLinkActive="active"  [href]="n.path"  [class.active]="selected === n.label" (click)="selected = n.lebel" >{{n.label}}</a>
       </li>
-      <li class="nav-item px-5 pt-1">
+      <li class="nav-item ml-4 pt-1" id="rs">
         <a href="https://www.linkedin.com/company/coup2pouce-sn/" class="rsc"><i class="fa fa-facebook"></i></a>
         <a href="https://www.linkedin.com/company/coup2pouce-sn/" class="rsc mx-3"><i class="fa fa-twitter"></i></a>
         <a href="https://www.linkedin.com/company/coup2pouce-sn/" class="rsc"><i class="fa fa-linkedin"></i></a>

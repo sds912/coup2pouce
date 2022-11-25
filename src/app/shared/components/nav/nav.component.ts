@@ -9,7 +9,7 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
-  public selected: any;
+  public selected: string = "";
   @Input() dark: boolean = false;
   public colored: boolean = false;
 
