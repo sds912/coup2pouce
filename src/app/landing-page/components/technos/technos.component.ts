@@ -16,7 +16,7 @@ export class TechnosComponent implements OnInit {
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
-    dots: true,
+    dots: false,
     navSpeed: 700,
     responsive: {
       0: {

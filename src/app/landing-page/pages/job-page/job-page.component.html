@@ -1,0 +1,41 @@
+<div class="nav-wrapper">
+  <app-nav></app-nav>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-7 text-right">
+     <img src="assets/images/personna.png" class="img-fluid"/>
+    </div>
+    <div class="col-12 col-md-5 pt-5 text">
+      <h3>Rejoindre l'aventure</h3>
+      <p>Donnez un coup2pouce à votre carrière</p>
+      <p>Nous recrutons des talents IT</p>
+      <label for="upload" class="btn" *ngIf="file === null">
+        J'envoie mon cv
+        <input  id="upload" type="file" accept="application/pdf,application/msword,
+        application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        (change)="upload($event.target)"
+        />
+
+      </label>
+
+      <p *ngIf="file != null" class="badge badge-secondary">{{file.name}}</p>
+
+      <form *ngIf="file != null" [formGroup]="cvForm" class="mt-5">
+
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input id="name" type="text" class="form-control" formControlName="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" class="form-control" formControlName="email" />
+        </div>
+
+        <button [disabled]="!cvForm.valid" class="btn" (click)="onSubmit()">
+          Envoyer
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

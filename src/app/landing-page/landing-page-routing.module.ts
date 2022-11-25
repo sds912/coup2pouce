@@ -1,3 +1,4 @@
+import { JobPageComponent } from './pages/job-page/job-page.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,10 @@ const routes: Routes = [
    {
     path: 'qui-sommes-nous',
     component: AboutUsPageComponent
+   },
+   {
+    path: "job",
+    component: JobPageComponent
    }
 ];
 

@@ -16,29 +16,62 @@ ul{
 
   }
 }
-
-.card{
-  padding: 0px;
-  border-radius: 0px;
-  position: relative;
-}
-img{
-  cursor: pointer;
-}
-
 .active{
   color: #5C0855;
   opacity: 1 !important;
 }
-.card:hover{
-
-  img{
-
-  }
-
-  h3, p{
 
 
-  }
-
+  .parent {
+    width: 100%;
+    margin: 20px;
+    height: 280px;
+    padding: 0 !important;
+    //border: 1px solid #5C0855;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
 }
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+  display: block;
+}
+
+.parent:hover a, .parent:focus a {
+  display: block;
+}
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #5c0855bf;
+}
+
+

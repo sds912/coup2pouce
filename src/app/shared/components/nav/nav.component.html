@@ -1,17 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark px-4 " >
+<nav class="navbar navbar-expand-lg navbar-dark px-4" [class.dark]="dark" [class.colored]="colored" >
   <a class="navbar-brand" href="#">
     <img src="assets/header/logo-blanc.png" alt="coup2pouce" class="img-fluid"  />
   </a>
-  <button
-  class="navbar-toggler"
-  type="button"
-  data-toggle="collapse"
-  aria-controls="navbarSupportedContent"
-  aria-expanded="false"
-  aria-label="Toggle navigation"
-  (click)="open()">
-    <i class="fa fa-bars fa-lg"></i>
-  </button>
   <div class="collapse navbar-collapse" >
     <ul class="navbar-nav ml-auto">
       <li *ngFor="let n of menus" class="nav-item" [class.active]="">
@@ -25,3 +15,12 @@
     </ul>
   </div>
 </nav>
+<label class="navside">
+  <input type="checkbox">
+  <span class="menu"> <span class="hamburger"></span> </span>
+  <ul class="list-unstyled">
+    <li *ngFor="let n of menus">
+      <a [href]="n.path" >{{n.label}}</a>
+    </li>
+  </ul>
+  </label>

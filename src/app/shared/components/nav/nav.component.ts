@@ -1,4 +1,3 @@
-import { MenuService } from './../../shared/services/menu.service';
 import { Component, HostListener, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +7,11 @@ import { Component, HostListener, Input, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor(private ms: MenuService) { }
+  constructor() { }
 
   public selected: any;
+  @Input() dark: boolean = false;
+  public colored: boolean = false;
 
   menus: any[] = [
     {
@@ -30,19 +31,20 @@ export class NavComponent implements OnInit {
       path: "blog"
     },
     {
+      label: "Job",
+      path: "job"
+    },
+    {
       label: "Contacts",
       path: "constacts-nous"
     }
   ]
 
   ngOnInit(): void {
-    this.ms.opened.subscribe(v => console.log(v))
+    //this.ms.opened.subscribe(v => console.log(v))
 
   }
 
-  open(){
-    this.ms.opened.next(true)
-  }
 
 @HostListener("window:scroll", []) onWindowScroll() {
   // do some stuff here when the window is scrolled
@@ -50,12 +52,10 @@ export class NavComponent implements OnInit {
         || document.documentElement.scrollTop
         || document.body.scrollTop || 0;
 
-        console.log(verticalOffset)
     if(verticalOffset > 5.0){
-
-     return true;
+     this.colored = true;
     }else{
-      return false;
+      this.colored = false;
     }
 }
 

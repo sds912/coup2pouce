@@ -1,4 +1,4 @@
-import { NavComponent } from './components/nav/nav.component';
+import { SharedModule } from './../shared/shared.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';
@@ -30,6 +30,9 @@ import { ArticleCardComponent } from '../shared/components/article-card/article-
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { AboutUsHeaderComponent } from './components/about-us-header/about-us-header.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
+import { JobPageComponent } from './pages/job-page/job-page.component';
+import { ServicePageComponent } from './pages/service-page/service-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -59,15 +62,18 @@ import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.compon
     SideNavComponent,
     AboutUsHeaderComponent,
     AboutUsPageComponent,
-    NavComponent
+    JobPageComponent,
+    ServicePageComponent
   ],
   imports: [
     CommonModule,
     LandingPageRoutingModule,
     NgImageSliderModule,
     CarouselModule,
+    ReactiveFormsModule,
     StarRatingModule.forRoot(),
-    GoogleMapsModule
+    GoogleMapsModule,
+    SharedModule
 
 
   ]

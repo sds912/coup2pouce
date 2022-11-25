@@ -1,3 +1,6 @@
+import { provideStorage,getStorage, StorageModule } from '@angular/fire/storage';
+
+import { environment } from './../environments/environment';
 
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -8,30 +11,35 @@ import { AppComponent } from './app.component';
 import { AngularFireModule} from '@angular/fire/compat';
 import { AngularFirestoreModule} from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule} from '@angular/fire/compat/auth';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { provideMessaging,getMessaging } from '@angular/fire/messaging';
+import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
     AppComponent
-
-
-
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AngularFireModule.initializeApp({
-      apiKey: "AIzaSyBsihXKp1XfK-_aBQon36bO6C40GbEhzFc",
-    authDomain: "coup2pouce-b7cb3.firebaseapp.com",
-    projectId: "coup2pouce-b7cb3",
-    storageBucket: "coup2pouce-b7cb3.appspot.com",
-    messagingSenderId: "333424420304",
-    appId: "1:333424420304:web:90f5b6f7be43e4bc3245d5",
-    measurementId: "G-SDSZHJ59FB"
-    }),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore()),
+    provideMessaging(() => getMessaging()),
+    provideRemoteConfig(() => getRemoteConfig()),
+    provideStorage(() => getStorage()),
+    SharedModule
+
+
 
 
 
