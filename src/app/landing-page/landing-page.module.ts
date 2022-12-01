@@ -33,6 +33,8 @@ import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.compon
 import { JobPageComponent } from './pages/job-page/job-page.component';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { OurSolutionsComponent } from './components/our-solutions/our-solutions.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 
 
@@ -63,7 +65,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     AboutUsHeaderComponent,
     AboutUsPageComponent,
     JobPageComponent,
-    ServicePageComponent
+    ServicePageComponent,
+    OurSolutionsComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,

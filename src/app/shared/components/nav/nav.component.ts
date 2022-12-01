@@ -20,23 +20,19 @@ export class NavComponent implements OnInit {
     },
     {
       label: "Qui sommes-nous",
-      path: "qui-sommes-nous"
+      path: "/qui-sommes-nous"
     },
     {
       label: "Services",
-      path: "nos-services"
-    },
-    {
-      label: "Le blog",
-      path: "blog"
+      path: "/nos-services"
     },
     {
       label: "Job",
-      path: "job"
+      path: "/nous-rejoindre"
     },
     {
       label: "Contacts",
-      path: "constacts-nous"
+      path: "/contactez-nous"
     }
   ]
 

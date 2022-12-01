@@ -5,7 +5,7 @@
   <div class="collapse navbar-collapse" >
     <ul class="navbar-nav ml-auto">
       <li *ngFor="let n of menus" class="nav-item"   >
-        <a class="nav-link" routerLink="n.path" routerLinkActive="active"  [href]="n.path"  [class.active]="selected === n.label" (click)="selected = n.lebel" >{{n.label}}</a>
+        <a class="nav-link" [routerLink]="n.path" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"  >{{n.label}}</a>
       </li>
       <li class="nav-item ml-4 pt-1" id="rs">
         <a href="https://www.linkedin.com/company/coup2pouce-sn/" class="rsc"><i class="fa fa-facebook"></i></a>
@@ -18,9 +18,9 @@
 <label class="navside">
   <input type="checkbox">
   <span class="menu"> <span class="hamburger"></span> </span>
-  <ul class="list-unstyled">
+  <ul class="list-unstyled ">
     <li *ngFor="let n of menus">
-      <a [href]="n.path" >{{n.label}}</a>
+      <a  [routerLink]="n.path" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >{{n.label}}</a>
     </li>
   </ul>
   </label>

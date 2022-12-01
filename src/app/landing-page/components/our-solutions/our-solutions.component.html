@@ -1,0 +1,26 @@
+<div class="container-fluid" id="our-services">
+  <div class="row">
+    <div class="col-12 col-md-5 pl-5">
+      <h3 style="color: #5c0855;">Nos Réalisations</h3>
+      <h6>Nous participons à la création de solutions innovantes </h6>
+      <p class="mt-5">
+        Nous avons aidé des entreprises à mettre en place des solutions
+        digitales qui repondent parfaitement à leurs besoins.
+      </p>
+      <p>
+        Tous nos clients ont apprécié la qualité de nos services ainsi que notre
+        professionnalisme.
+      </p>
+
+    </div>
+    <div class="col-12 col-md-7">
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let i of imageObject" >
+        <img  [src]="i.thumbImage" [alt]="i.alt" class="img-fluid">
+        </ng-template>
+    </owl-carousel-o>
+   </div>
+  </div>
+
+
+</div>
